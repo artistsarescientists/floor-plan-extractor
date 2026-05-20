@@ -28,7 +28,7 @@ You can download the latest version of the Floor Plan Extractor for your operati
 ## 🔐 Licensing
 
 This application requires an active license key to operate. 
-If you do not have a license key, you can purchase one through the [Versa RES Web Portal](https://api.floorplan.artistsarescientists.com/checkout.html).
+If you do not have a license key, you can purchase one through the [Floor Plan Extractor Web Portal](https://floorplan.artistsarescientists.com/).
 
 License keys are tied to your email address and can be used to activate the app on up to 5 concurrent devices. Your custom templates are synced automatically across all activated devices.
 
@@ -36,8 +36,8 @@ License keys are tied to your email address and can be used to activate the app 
 
 While this repository hosts the compiled releases, the underlying architecture consists of two proprietary, closed-source codebases:
 
-1. **The Desktop App (`Versa-RES-Desktop`):** Built with Electron, HTML/JS for the frontend, and a bundled FastAPI Python backend. It utilizes OpenCV and PyMuPDF for heavy image manipulation and SAM (Segment Anything Model) logic.
-2. **The Cloud Backend (`Versa-RES-Web`):** A serverless Google Cloud Run application that handles license generation (Stripe), Google/Microsoft OAuth, Cloud Syncing, and AI orchestration (Gemini API).
+1. **The Desktop App:** Built with Electron, HTML/JS for the frontend, and a bundled FastAPI Python backend. It utilizes OpenCV and PyMuPDF for heavy image manipulation and SAM (Segment Anything Model) logic.
+2. **The Cloud Backend:** A serverless Google Cloud Run application that handles license generation (Stripe), Google/Microsoft OAuth, Cloud Syncing, and AI orchestration (Gemini API).
 
 ## 💬 Support & Feedback
 
